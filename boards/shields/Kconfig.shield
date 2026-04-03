@@ -1,0 +1,9 @@
+config SHIELD_ICE_CORNE_LEFT
+    def_bool $(shields_list_contains,ice_corne_left)
+
+config SHIELD_ICE_CORNE_RIGHT
+    def_bool $(shields_list_contains,ice_corne_right)
+
+config SHIELD_ICE_CORNE_DONGLE
+    def_bool $(shields_list_contains,ice_corne_dongle)
+
